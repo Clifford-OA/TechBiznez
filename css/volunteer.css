@@ -1,0 +1,105 @@
+
+
+
+#container{
+	margin: 20px;
+
+}
+#input-box {
+/*	width: 100%;
+*/	margin: 15px;
+	display: flex;
+	position: relative;
+}
+
+#form-div{
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+form {
+	padding-top: 20px;
+	width: 65%;
+}
+
+span {
+	position: relative;
+	padding: 10px;
+	margin: 0;
+	text-align: center;
+	justify-content: center;
+	align-items: center;
+}
+#span-box{
+	background-color: brown;
+	border: 1px solid black;
+	position: relative;
+
+}
+
+svg {
+	font-size: 30px;
+	color: white;
+	align-items: center;
+	text-align: center;
+	justify-content: center;
+	position: relative;
+}
+
+input {
+/*	float: left;
+*/	position: relative;
+	width: 90%;
+	padding: 10px;
+	border-radius: 5px;
+
+}
+
+select {
+/*	float: left;
+*/	position: relative;
+	width: 90%;
+	padding: 10px;
+	border-radius: 5px;
+
+}
+
+textarea {
+	position: relative;
+	width: 90%;
+	padding: 10px;
+	border-radius: 5px;
+}
+
+#form-div img {
+	padding: 10px;
+	width: 30%;
+	height: 30%;
+}
+
+
+@media (max-width: 575.98px) {
+	#form-div {
+		display: block;
+		width: 100%;
+		justify-content: center;
+		align-items: center;
+	}
+
+	#form-div img {
+		width: 100%;
+		
+	}
+
+	form {
+		width: 100%;
+		padding: 10px;
+	}
+
+	#input-box {
+		margin: 5px;
+
+	}
+}

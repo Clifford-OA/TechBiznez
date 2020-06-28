@@ -1,0 +1,55 @@
+
+#project-div {
+	text-align: center;
+	background-color: brown;
+}
+
+#project-div h2 {
+	color: white;
+	padding: 50px;
+}
+
+.about h2 {
+	color: red;
+}
+
+#gallery {
+	margin: 10px;
+}
+
+#gallery h2 {
+	padding: 20px;
+	text-align: center;
+}
+
+#images {
+	display: flex;
+	padding: 10px;
+	flex-wrap: wrap;
+	flex: 1;
+}
+
+#images img {
+	padding: 10px;
+	width:30%;
+}
+
+/*.images {
+	width: 30%;
+}*/
+
+
+@media (max-width: 575.98px) {
+	#images{
+		display: block;
+	}
+	#images img {
+		width: 100%;
+		position: relative;
+		padding: 10px;
+	}
+
+	#project-div h2{
+		font-size: 20px;
+	}
+	}
