@@ -420,6 +420,11 @@ blockquote::after {
 
    #show a i {
    	padding: 5px;
+   	color: white;
+   	font-size: 20px;
+   }
+   #show i {
+   	padding: 10px;
    }
 
    #show a:hover {
@@ -447,7 +452,7 @@ blockquote::after {
 
 
     /*Extra small devices (portrait phones, less than 576px)*/
-@media (max-width: 575.98px) {
+@media (max-width: 500px) {
 
 	.carousel-item h2, .carousel-item h5{
       font-size: 15px;
